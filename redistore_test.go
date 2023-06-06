@@ -326,7 +326,7 @@ func TestRediStore(t *testing.T) {
 	// RedisStoreWithDB
 	{
 		addr := setup()
-		store, err := NewRediStoreWithDB(10, "tcp", addr, "", "1", []byte("secret-key"))
+		store, err := NewRediStoreWithDB(10, "tcp", addr, "", 1, []byte("secret-key"))
 		if err != nil {
 			t.Fatal(err.Error())
 		}
