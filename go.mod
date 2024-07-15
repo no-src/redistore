@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/gorilla/securecookie v1.1.2
 	github.com/gorilla/sessions v1.3.0
-	github.com/redis/go-redis/v9 v9.5.3
+	github.com/redis/go-redis/v9 v9.5.4
 )
 
 require (
